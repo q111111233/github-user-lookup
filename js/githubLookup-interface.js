@@ -1,9 +1,12 @@
-var GithubLookup = require('./../js/githublookup.js').githublookupModule;
+var GithubLookup = require('./../js/githubLookup.js').githubLookupModule;
 
 $(document).ready(function() {
-  $('#lookup').click(function() {
+  var currentUser = new GithubLookup();
+  $('#lookup')click(function() {
+
+
     var username = $('#username').val();
     $('#username').val("");
-    GithubLookup.getGithubLookup();
+    currentUser.getGithubLookup(username);
   });
 });
