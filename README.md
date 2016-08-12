@@ -11,12 +11,10 @@ _a website where the user can enter a GitHub username into a form, submit it, an
 ## Setup/Installation Requirements
 
 * _Clone this repository_
-* _Use the following commands to install npm, bower, gulp, typescript on device if needed_
+* _Use the following commands to install npm, bower, gulp on device if needed_
   1. _$ npm init_
   2. _$ npm install gulp -g_
   3. _$ gem install bower -g_
-  4. _$ npm install typescript -g_
-  5. _$ apm install atom-typescript_
 * _Set up dependencies by "npm install" and "bower install"_
 * _generate a Github APIkey and put it in a new file .env in such format -- exports.apiKey = "YOUR APIkey"; --_
 * _Enter in command line "gulp build" and "gulp serve" to navigate to the localhost port in the browser_
