@@ -9,9 +9,9 @@ GithubLookup.prototype.getGithubLookup = function(username){
 
 
     response.forEach(function(a){
-      $('.result').append('<li>' + a.name + '</li>' +
-                          '<p>' + a.description + '</p>');
-    })
+      $('.result').append('<li class="searched">' + a.name + '</li>' +
+                          '<p class="searched">' + a.description + '</p>');
+    });
 
 
   }).fail(function(error){
